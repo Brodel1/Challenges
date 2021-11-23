@@ -1,0 +1,264 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.header-image{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.header-main-text{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.header-second-text{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    width: 65%;
+    margin-left: 17%;
+    margin-bottom: 30px;
+}
+.header-button button{
+    border-radius: 40px;
+    border: none;
+    padding:16px 40px;
+    margin-left: 8px;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    margin-bottom: 150px;
+}
+.header-button button:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+}
+
+.under-header{
+    text-align: center;
+}
+.under-header-main-text{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.under-header-second-text{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    width: 47%;
+    margin-left: 27%;
+    margin-bottom: 80px;
+    line-height: 1.6;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.display-image{
+    margin: 0;
+    padding: 0;
+}
+.display-text{
+    margin-left: 100px;
+    margin-right: 230px;
+    margin-top: 50px;
+    line-height: 2;
+}
+.display-text-main{
+    font-size: 22px;
+    font-weight: bold;
+    color: hsl(210, 10%, 33%);
+}
+
+.display-text-second{
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: hsl(201, 11%, 66%);
+}
+.access{
+    text-align: center;
+}
+/* .access-text{
+} */
+.access-main-text{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.access-second-text{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    width: 50%;
+    margin-left: 26%;
+    margin-bottom: 100px;
+    line-height: 1.6;
+}
+.access-image{
+    width: auto;
+    height: auto;
+    margin-left: 60px;
+}
+.supercharge-main-text{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.supercharge-second-text{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+.list-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+.list-main-text{
+    color: hsl(210, 10%, 33%);
+    font-size: 22px;
+    font-weight: 600;
+    font-weight: bold;
+}
+.list-second-text{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    margin-bottom: 100px;
+    line-height: 1.6;
+    padding:20px;
+}
+.list-second-text p{
+    margin: 0;
+}
+.list-image img{
+    width: 40px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.list-image-second ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+.list-image-second li{
+    padding: 50px;
+}
+.microsoft{
+    margin-top: 5px;
+}
+.vector{
+    margin-top: 15px;
+}
+.list-image-second img{
+    width: auto;
+    height: auto;
+}
+.clipboard{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.clipboard-text{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.clipboard-main-text{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.clipboard-second-text{
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+.clipboard-button button{
+    border-radius: 40px;
+    border: none;
+    padding:17px 50px;
+    margin-left: 8px;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    margin-bottom: 200px;
+}
+.clipboard-button button:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+}
+.endpage{
+    background-color: hsl(201, 11%, 66%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.endpage-image img{
+   width: 50px;
+   height: 50px;
+}
+.endpage-image{
+    align-items: center;
+    width: 10%;
+    padding-left: 100px;
+}
+.endpage-ul1{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 60%;
+   
+   
+}
+.endpage1{
+    width: 50%;
+}
+  
+.endpage-ul1 li{
+    padding: 20px;
+    opacity: unset;
+}
+.endpage-ul2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+
+}
+.endpage2{
+    width: 10%;
+   
+}
+.endpage-ul2 li{
+    padding: 10px;
+}
+
